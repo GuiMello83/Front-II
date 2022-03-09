@@ -1,0 +1,23 @@
+*{
+    padding:0;
+
+}
+
+.title{
+
+    font-size: 32px;
+    color:salmon;
+}
+
+.main-menu{
+    background-color: brown;
+    width: 200px;
+    height: 100 vh;
+    position: fixed;
+    top: 0;
+    left: -200px;
+}
+
+.main-menu-opened {
+ left: 0;
+}
