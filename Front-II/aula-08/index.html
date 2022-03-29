@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form id="calc1">
+            <div id="container">
+                <div id="topo">
+                    <h1>Calculadora</h1>
+                </div>
+
+                <div class="calcReal">
+                    <span id="titulo">Introduza os numeros:</span><br>
+
+                    <div>
+                        <label>Primeiro número: </label>
+                        <input type="number" size="2" name="n1" id="pnumero"><br>
+                    </div>
+                    <div>
+                        <label>Segundo número: </label>
+                        <input type="number" size="2" name="n2" id="snumero"><br>
+                    </div>
+                    <div>
+                        <input type="button" value="+" id="somar">
+                        <input type="button" value="-" id="subtrair">
+                        <input type="button" value="*" id="multiplicar">
+                        <input type="button" value="/" id="dividir"><br>
+                    </div>
+                    <div>
+                        <input type="button" value="Limpar" id="limpar" />
+                        <input type="button" value="Enviar" id="enviar">
+                    </div>
+                </div>
+            </div>
+            <div id="resultado">
+            </div>
+        </form>
+
+        <script src="./main.js"></script>
+
+    </body>
+
+</html>

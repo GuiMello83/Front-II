@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <h1>Cadastro</h1>
+        <div>
+            <!-- quando coloca no for o mesmo do id do label, você clica no nome (escrito e vai direto pro form) -->
+            <label for="inputNome">Nome</label> 
+            <input type="text" id="inputNome" >
+        </div>
+        <div>
+            <label for="selctCidade">Cidade</label>
+            <select id="selectCidade">
+                <option value="SP">Sampa</option>
+                <option value="Santos">Santos</option> 
+            </select>
+        </div>
+        <div>
+            <!-- Para incluir as caixinhas de confirmação, e colocar o id como termo, é justamente para aceitar os termos. -->
+            <input type="checkbox" id="inputTermos"> 
+            <label for="inputTermos">Concordo com os termos</label>
+        </div>
+
+        <!-- O value é para descrever ao input qual está marcado -->
+        <div>
+            <input type="radio" name="tipoPessoa" id="pessoaFisica" checked value="fisica"> <!-- O checked é para iniciar com esse botão clicado -->
+            <label for="pessoaFisica">Pessoa Física</label>
+        </div>
+        <!-- Quando o name é o mesmo, o botão poderá ser clicado em apenas um -->
+        <div>
+            <input type="radio" name="tipoPessoa" id="pessoaJuridica" value="juridica">
+            <label for="pessoaJuridica">Pessoa Jurídica</label>
+        </div>
+        <button type="submit" id="botaoConcluirCadastro">Concluir</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>

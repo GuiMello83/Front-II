@@ -1,4 +1,4 @@
-let a = parseInt("22"); 
+/* let a = parseInt("22"); 
 let b = parseInt(prompt("Introduza idade")); 
 let c = parseInt("22"+"150"); 
 let d = parseInt(22+150) 
@@ -11,4 +11,14 @@ console.log(d);
 console.log(e); 
 console.log(f);
 
-let titulo = document.querySelector('.titulo');
+let titulo = document.querySelector('.titulo'); */
+
+// tituloPrincipal.innertext
+
+document.querySelector('#subtitulo');
+
+
+for(let i = 0; i < numeros.length; i++) {
+    console.log(numeros[i].innertext);
+}
+
